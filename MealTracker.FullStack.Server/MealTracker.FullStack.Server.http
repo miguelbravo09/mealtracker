@@ -1,0 +1,6 @@
+@MealTracker.FullStack.Server_HostAddress = http://localhost:5222
+
+GET {{MealTracker.FullStack.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

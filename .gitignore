@@ -1,0 +1,34 @@
+# ---- Backend (ASP.NET Core) ----
+bin/
+obj/
+*.db
+*.db-journal
+*.log
+*.vs/
+.vscode/
+secrets.json
+*.swp
+*.user
+*.suo
+*.cache
+*.config
+*.bak
+*.mdf
+*.ldf
+
+# Ignore appsettings.json if it contains sensitive data (optional)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# ---- Frontend (React + Vite) ----
+mealtracker.fullstack.client/node_modules/
+mealtracker.fullstack.client/dist/
+mealtracker.fullstack.client/.vite/
+mealtracker.fullstack.client/.turbo/
+mealtracker.fullstack.client/.env
+mealtracker.fullstack.client/.eslintcache
+
+# ---- OS / Editor-Specific Files ----
+.DS_Store
+Thumbs.db

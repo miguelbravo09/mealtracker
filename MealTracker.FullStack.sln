@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "mealtracker.fullstack.client", "mealtracker.fullstack.client\mealtracker.fullstack.client.esproj", "{35FCA5F1-48DF-56E7-88F3-A319299CB57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealTracker.FullStack.Server", "MealTracker.FullStack.Server\MealTracker.FullStack.Server.csproj", "{43B35E22-FCC7-4F81-A65A-12D4AC958412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FCA5F1-48DF-56E7-88F3-A319299CB57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FCA5F1-48DF-56E7-88F3-A319299CB57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FCA5F1-48DF-56E7-88F3-A319299CB57A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35FCA5F1-48DF-56E7-88F3-A319299CB57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FCA5F1-48DF-56E7-88F3-A319299CB57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FCA5F1-48DF-56E7-88F3-A319299CB57A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{43B35E22-FCC7-4F81-A65A-12D4AC958412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B35E22-FCC7-4F81-A65A-12D4AC958412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B35E22-FCC7-4F81-A65A-12D4AC958412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B35E22-FCC7-4F81-A65A-12D4AC958412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3E26EC3-5C19-4707-8100-37B5CA674763}
+	EndGlobalSection
+EndGlobal
