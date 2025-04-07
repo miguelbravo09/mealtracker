@@ -40,3 +40,28 @@ li {
     padding: 10px;
     margin-bottom: 10px;
 }
+
+/* Add these new rules at the bottom of your existing App.css */
+.app-description {
+    color: #666;
+    margin: 0 0 2rem 0;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.update-message {
+    color: green;
+    margin-left: 10px;
+    font-weight: bold;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
