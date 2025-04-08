@@ -6,6 +6,12 @@ const MealForm = ({ meal, onSave }) => {
     const [description, setDescription] = useState(meal?.description || '');
     const [categoryId, setCategoryId] = useState(meal?.categoryId || '');
 
+    const categories = [
+        { id: 1, name: 'Breakfast' },
+        { id: 2, name: 'Lunch' },
+        { id: 3, name: 'Dinner' }
+    ];
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         const newMeal = { name, description, categoryId };
@@ -43,13 +49,19 @@ const MealForm = ({ meal, onSave }) => {
                 />
             </div>
             <div>
-                <label>Category ID:</label>
-                <input
-                    type="number"
+                <label>Category:</label>
+                <select
                     value={categoryId}
-                    onChange={(e) => setCategoryId(e.target.value)}
+                    onChange={(e) => setCategoryId(Number(e.target.value))}
                     required
-                />
+                >
+                    <option value="">Select a category</option>
+                    {categories.map((category) => (
+                        <option key={category.id} value={category.id}>
+                            {category.name}
+                        </option>
+                    ))}
+                </select>
             </div>
             <button type="submit">{meal ? 'Update' : 'Add'} Meal</button>
         </form>
