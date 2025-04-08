@@ -14,7 +14,7 @@ const App = () => {
         <div className="App">
             <h1>Meal Tracker</h1>
             <p className="app-description">
-                Track your daily meals, monitor nutrition, and maintain healthy eating habits.
+                Track your daily meals, monitor nutrition, and maintain healthy eating habits!
                 {refresh && <span className="update-message">List updated!</span>}
             </p>
             <MealForm onSave={handleSave} />
