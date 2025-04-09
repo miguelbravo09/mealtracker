@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MealList from './components/MealList';
 import MealForm from './components/MealForm';
+import TodayMeals from './components/TodayMeals';
 import './App.css';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                 Track your daily meals and maintain healthy eating habits!
                 {refresh && <span className="update-message">List updated!</span>}
             </p>
+            <TodayMeals />
             <MealForm onSave={handleSave} />
             <MealList key={refresh} />
         </div>
